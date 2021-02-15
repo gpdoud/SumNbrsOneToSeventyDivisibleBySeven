@@ -22,7 +22,7 @@ namespace SumNbrsOneToSeventyDivisibleBySeven {
                     highest = nbr;
                 }
                 if(nbr < lowest) {
-                    lowest = nbr;
+                    lowest = nbr; 
                 }
             }
             Console.WriteLine($"Highest is {highest} and lowest is {lowest}");
